@@ -1,0 +1,16 @@
+body {
+    background-color: #979B8D;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    padding: 15px;
+    color: black;
+    font-size: 20px; 
+}
+
+img {
+    width: 400px;
+    height: 500px;
+}
+
