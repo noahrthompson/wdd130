@@ -16,6 +16,10 @@ a {
     margin: 10px;
 }
 
+nav {
+    display: flex;
+}
+
 nav, footer {
     background-color: steelblue;
     padding: 20px;
@@ -23,11 +27,18 @@ nav, footer {
     text-align: center;
 }
 
+img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
 img {
     width: 400px;
     height: 500px;
     margin: 50px auto;
     display: block;
+    transition: 1s;
+    box-shadow: 5px 5px 10px black;
 }
 
 nav a {
