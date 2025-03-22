@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.graysquare {
+    background-color: gray;
+}
+
+.cherries, .tart {
+    z-index: 2;
+}
+
+.tart {
+    font-size: 30px;
+    grid-column: 1/4;
+}
