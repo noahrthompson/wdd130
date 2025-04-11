@@ -100,6 +100,47 @@ nav a:hover {
     text-align: center;
 }
 
+.browse-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+.recipe-card .text {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    width: 25vw;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.recipe-card {
+    width: 100%;
+    text-align: center;
+}
+
+.browse-img {
+    width: 25vw;
+}
+
+.browse-title {
+    grid-column: 1/4;
+    text-align: center;
+}
+
+.browse-grid .browse-title {
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.browse-grid .browse-subtitle {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
 .faq-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -171,6 +212,22 @@ nav a:hover {
     line-height: 1.5;
 }
 
+.meal-subpage-title {
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    width: 100vw;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.sub-grid {
+    display: grid;
+    justify-items: center;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding: 50px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
 
 footer {
     display: flex;
@@ -182,7 +239,6 @@ footer {
     font-size: 30px;
     margin-top: 80px;
     gap: 200px;
-
 }
 
 footer p{
